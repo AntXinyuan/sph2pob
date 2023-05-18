@@ -22,13 +22,13 @@ Taking the two problems into account, we propose a new sphere-plane boxes transf
 # Main Results
 ## Comprehensive Comparison
 
-| Method    | Differentiable | Consistency |           |            | Time-cost |            | Detection* |           |           |
-| --------  | -------------- | ----------- | --------- | ---------- | --------- | ---------- | ---------  | --------- | --------- |
-|           |                | $R_{all}$   | $R_{low}$ | $R_{high}$ | $T_{cpu}$ | $T_{cuda}$ | $AP$       | $AP_{50}$ | $AP_{75}$ |
-| Sph       | √              | 0.7819      | 0.9922    | 0.4274     | 0.0364    | 0.0033     | 10.7       | 24.3      | 7.8       |
-| Fov       | √              | 0.9600      | 0.9974    | 0.8860     | 0.0372    | 0.0034     | 10.9       | 25.0      | 7.9       |
-| Sph2Pob   | √              | 0.9989      | 0.9990    | 0.9988     | 2.2275    | 0.0096     | 11.5       | 25.7      | 8.2       |
-| Unbiased† |                | 1.000       | 1.000     | 1.000      | 46.4417   | -          | -          | -         | -         |
+| Method    | Consistency |           |            | Time-cost |            | Detection* |           |           |
+| --------  | ----------- | --------- | ---------- | --------- | ---------- | ---------  | --------- | --------- |
+|           | $R_{all}$   | $R_{low}$ | $R_{high}$ | $T_{cpu}$ | $T_{cuda}$ | $AP$       | $AP_{50}$ | $AP_{75}$ |
+| Sph       | 0.7819      | 0.9922    | 0.4274     | 0.0364    | 0.0033     | 10.7       | 24.3      | 7.8       |
+| Fov       | 0.9600      | 0.9974    | 0.8860     | 0.0372    | 0.0034     | 10.9       | 25.0      | 7.9       |
+| Sph2Pob   | 0.9989      | 0.9990    | 0.9988     | 2.2275    | 0.0096     | 11.5       | 25.7      | 8.2       |
+| Unbiased† | 1.000       | 1.000     | 1.000      | 46.4417   | -          | -          | -         | -         |
 
 † Unbiased-IoU is non-differentiable, and it do not support cuda.
 
@@ -137,7 +137,7 @@ In tests/test_all_ious.py, we provide a few performance comparsion functions, in
 ## Visualization
 In tests/test_visualizer.py, we provide a visualization about Sph2Pob-Transform
 
-- [test_sph_visualizer] plot spherical \& planar bboxes on ERP-plane based on Sph2Pob-Transform.
+- [test_sph_visualizer] Plot spherical \& planar bboxes on ERP-plane based on Sph2Pob-Transform.
 
 
 # Citation
