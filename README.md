@@ -98,7 +98,7 @@ Taking the two problems into account, we propose a new sphere-plane boxes transf
 ## Datasets
 - [360-Indoor](https://openaccess.thecvf.com/content_WACV_2020/html/Chou_360-Indoor_Towards_Learning_Real-World_Objects_in_360deg_Indoor_Equirectangular_Images_WACV_2020_paper.html) (BFoV) is available at [https://aliensunmin.github.io/project/360-dataset/#dataset](https://aliensunmin.github.io/project/360-dataset/#dataset)
 
-- [PANDORA](https://link.springer.com/chapter/10.1007/978-3-031-20074-8_14) (RBFoV) is available at [https://github.com/tdsuper/SphericalObjectDetection](https://github.com/tdsuper/SphericalObjectDetection).
+- [PANDORA](https://link.springer.com/chapter/10.1007/978-3-031-20074-8_14) (RBFoV) is available at [https://github.com/tdsuper/SphericalObjectDetection#pandora-dataset](https://github.com/tdsuper/SphericalObjectDetection#pandora-dataset).
 
 # Usage
 ## IoU API
