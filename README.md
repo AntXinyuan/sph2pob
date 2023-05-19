@@ -1,6 +1,11 @@
 # Sph2Pob: Boosting Object Detection on Spherical Images with Planar Oriented Boxes Methods (IJCAI 2023)
 
-This repository is an official implementation of the IJCAI 2023 paper Sph2Pob: Boosting Object Detection on Spherical Images with Planar Oriented Boxes Methods.
+[![IJCAI](https://img.shields.io/badge/IJCAI-2023-f8d561)](https://ijcai-23.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-1.11.0-ee4c2c)](https://pytorch.org/)
+[![mmdet](https://img.shields.io/badge/mmdet-2.25.2-blue)](https://github.com/open-mmlab/mmdetection/tree/2.x)
+[![license](https://img.shields.io/badge/license-Apache--2.0-green)](https://github.com/AntXinyuan/sph2pob/blob/master/LICENSE)
+
+This repository is an official implementation (PyTorch) of the IJCAI 2023 paper Sph2Pob: Boosting Object Detection on Spherical Images with Planar Oriented Boxes Methods.
 
 # Introduction
  **TL; DR.** Sph2Pob is a new paradiam for spherical object detection, where spherical boxes are transformed to planar oriented boxes, and then IoU and Loss are indirectly calculated.
@@ -22,7 +27,7 @@ Taking the two problems into account, we propose a new sphere-plane boxes transf
 # Main Results
 ## Comprehensive Comparison
 
-| Method    | Consistency |           |            | Time-cost |            | Detection* |           |           |
+| Method    | Consistency |           |            | Time-cost⋆ |            | Detection* |           |           |
 | --------  | ----------- | --------- | ---------- | --------- | ---------- | ---------  | --------- | --------- |
 |           | $R_{all}$   | $R_{low}$ | $R_{high}$ | $T_{cpu}$ | $T_{cuda}$ | $AP$       | $AP_{50}$ | $AP_{75}$ |
 | Sph       | 0.7819      | 0.9922    | 0.4274     | 0.0364    | 0.0033     | 10.7       | 24.3      | 7.8       |
@@ -32,7 +37,10 @@ Taking the two problems into account, we propose a new sphere-plane boxes transf
 
 † Unbiased-IoU is non-differentiable, and it do not support cuda.
 
-\* Sph-IoU and Fov-IoU are designed only for BFoV, so detection results are reported with [Retinanet](https://arxiv.org/abs/1708.02002) on 360-Indoor dataset (RFoV). 
+⋆ Time-cost refers to the total computational time (unit:second) of IoU fro 1,000,000 spherical box-pairs.
+
+\* Sph-IoU and Fov-IoU are designed only for BFoV, so detection results are reported with [Retinanet](https://arxiv.org/abs/1708.02002) on 360-Indoor dataset (RFoV).
+
 
 ## Detection Comparison
 
