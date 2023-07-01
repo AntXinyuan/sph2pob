@@ -22,6 +22,7 @@ They lead to the low accuracy of these methods.
 Taking the two problems into account, we propose a new sphere-plane boxes transform, called Sph2Pob. Based on the Sph2Pob, we propose (1) an differentiable IoU, Sph2Pob-IoU, for spherical boxes with low time-cost and high accuracy and (2) an agent Loss, Sph2Pob-Loss, for spherical detection with high flexibility and expansibility. Extensive experiments verify the effectiveness and generality of our approaches, and Sph2Pob-IoU and Sph2Pob-Loss together boost the performance of spherical detectors.
 
 # Updates
+- (01/07/2023) The [slides](docs/sph2pob-slides.pdf) about our paper is released!
 - (18/05/2023) The codes about SPh2Pob-IoU and corresponding tests are released! 
 
 # Main Results
