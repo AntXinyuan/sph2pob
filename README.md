@@ -22,6 +22,7 @@ They lead to the low accuracy of these methods.
 Taking the two problems into account, we propose a new sphere-plane boxes transform, called Sph2Pob. Based on the Sph2Pob, we propose (1) an differentiable IoU, Sph2Pob-IoU, for spherical boxes with low time-cost and high accuracy and (2) an agent Loss, Sph2Pob-Loss, for spherical detection with high flexibility and expansibility. Extensive experiments verify the effectiveness and generality of our approaches, and Sph2Pob-IoU and Sph2Pob-Loss together boost the performance of spherical detectors.
 
 # Updates
+- (16/08/2023) The [paper](https://www.ijcai.org/proceedings/2023/0137.pdf) is released!
 - (25/07/2023) The [poster](docs/sph2pob-poster-web.pdf) about our paper is released!
 - (01/07/2023) The [slides](docs/sph2pob-slides.pdf) about our paper is released!
 - (18/05/2023) The codes about SPh2Pob-IoU and corresponding tests are released! 
@@ -156,9 +157,17 @@ If you find Sph2Pob useful in your research, please consider citing:
 
 ```bibtex
 @inproceedings{liu2023sph2pob,
-  title={Sph2Pob: Boosting Object Detection on Spherical Images with Planar Oriented Boxes Methods},
-  author={Liu, Xinyuan and Xu, Hang and Chen, Bin and Zhao, Qiang and Ma, Yike and Yan, Chenggang and Dai, Feng},
-  booktitle={International Joint Conference on Artificial Intelligence(IJCAI)},
-  year={2023}
+  title     = {Sph2Pob: Boosting Object Detection on Spherical Images with Planar Oriented Boxes Methods},
+  author    = {Liu, Xinyuan and Xu, Hang and Chen, Bin and Zhao, Qiang and Ma, Yike and Yan, Chenggang and Dai, Feng},
+  booktitle = {Proceedings of the Thirty-Second International Joint Conference on
+               Artificial Intelligence, {IJCAI-23}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  editor    = {Edith Elkind},
+  pages     = {1231--1239},
+  year      = {2023},
+  month     = {8},
+  note      = {Main Track},
+  doi       = {10.24963/ijcai.2023/137},
+  url       = {https://doi.org/10.24963/ijcai.2023/137},
 }
 ```
