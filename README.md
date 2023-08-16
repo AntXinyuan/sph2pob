@@ -5,7 +5,7 @@
 [![mmdet](https://img.shields.io/badge/mmdet-2.25.2-blue)](https://github.com/open-mmlab/mmdetection/tree/2.x)
 [![license](https://img.shields.io/badge/license-Apache--2.0-green)](https://github.com/AntXinyuan/sph2pob/blob/master/LICENSE)
 
-This repository is an official implementation (PyTorch) of the IJCAI 2023 paper Sph2Pob: Boosting Object Detection on Spherical Images with Planar Oriented Boxes Methods.
+This repository is an official implementation (PyTorch) of the **IJCAI 2023 paper** [Sph2Pob: Boosting Object Detection on Spherical Images with Planar Oriented Boxes Methods]((https://www.ijcai.org/proceedings/2023/0137.pdf)).
 
 # Introduction
  **TL; DR.** Sph2Pob is a new paradiam for spherical object detection, where spherical boxes are transformed to planar oriented boxes, and then IoU and Loss are indirectly calculated.
