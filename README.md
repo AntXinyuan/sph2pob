@@ -24,7 +24,7 @@ Taking the two problems into account, we propose a new sphere-plane boxes transf
 # Updates
 - (16/08/2023) The [paper](https://www.ijcai.org/proceedings/2023/0137.pdf) is released!
 - (25/07/2023) The [poster](docs/sph2pob-poster-web.pdf) about our paper is released!
-- (01/07/2023) The [slides](docs/sph2pob-slides.pdf) about our paper is released!
+- (01/07/2023) The [slides](docs/sph2pob-slides-web.pdf) about our paper is released!
 - (18/05/2023) The codes about SPh2Pob-IoU and corresponding tests are released! 
 
 # Main Results
